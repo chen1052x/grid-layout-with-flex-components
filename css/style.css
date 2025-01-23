@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+}
+
+body {
+    padding: 30px;
+}
+
+.siteheader {
+    margin-bottom: 20px;
+}
+
+.emoji {
+    width: 480px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    border-radius: 2%;
+    justify-content: space-between;
+    padding: 20px;
+    
+    
+}
+
+.icon {
+    margin: 0 auto;
+    order: -1;
+    font-size: 60px;
+}
+
+h2 {
+    border-bottom: solid gray 1px;
+}
+
+a {
+    background-color: purple;
+    width: 445px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px;
+    border-radius: 8px;
+}
+
+.emojis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+}
+
