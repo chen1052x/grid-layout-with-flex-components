@@ -31,6 +31,10 @@ body {
     font-size: 60px;
 }
 
+p {
+    min-height: 100px;
+}
+
 h2 {
     border-bottom: solid gray 1px;
 }
@@ -50,5 +54,9 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     max-width: 1000px;
+}
+.emojis > .emoji:nth-child(4) a {
+    margin-top: 40px;
+
 }
 
